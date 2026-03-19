@@ -4,7 +4,7 @@ This repository analyzes road degradation in Toronto by identifying the "Weather
 This project develops a predictive framework for urban road degradation, moving beyond reactive, complaint-based maintenance toward a data-driven Proactive Risk Assessment. By integrating 311 service request data from the City of Toronto with high-resolution atmospheric variables, the study identifies the "Weather Regimes" that catalyze pavement failure.
 
 ## Methodology
-The core of the analysis utilizes Bayesian Gaussian Mixture Regression (BGMR) to map the joint distribution of six environmental pillars: Relative Humidity ($RHUM$), Cloud Cover (CLDC$), Atmospheric Pressure (PRES), Precipitation ($PRCP$), Snow Depth (SNWD$), and seasonality. Unlike traditional deterministic models, the BGMR approach accounts for atmospheric uncertainty, allowing for the calculation of Exceedance Probabilities and the identification of distinct "Infrastructure Stress Clusters.
+The core of the analysis utilizes Bayesian Gaussian Mixture Regression (BGMR) to map the joint distribution of six environmental pillars: Relative Humidity ($RHUM$), Cloud Cover ($CLDC$), Atmospheric Pressure ($PRES$), Precipitation ($PRCP$), Snow Depth ($SNWD$), and seasonality. Unlike traditional deterministic models, the BGMR approach accounts for atmospheric uncertainty, allowing for the calculation of Exceedance Probabilities and the identification of distinct "Infrastructure Stress Clusters.
 
 ### Key Innovations
 ### Normalization: Shifted the metric from raw report volume to Intersection-Day Occurrences, eliminating reporting bias and focusing on unique structural failure events.
