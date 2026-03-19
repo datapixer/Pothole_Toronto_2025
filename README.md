@@ -15,3 +15,5 @@ The core of the analysis utilizes Bayesian Gaussian Mixture Regression (BGMR) to
 
 ## Results and Impact
 The findings demonstrate that 20% of analyzed intersections reached a "Critical" risk level in early 2026, primarily driven by the synergy between moisture saturation and atmospheric pressure drops. The results provide a "Decision Support System" for municipal engineers, enabling the allocation of repair crews to high-risk zones 7–10 days before failures occur, ultimately reducing vehicle damage and optimizing city infrastructure budgets.
+
+311 open source data of pothole: https://open.toronto.ca/dataset/311-service-requests-customer-initiated/
